@@ -1,0 +1,18 @@
+# SPDX-License-Identifier: GPL-2.0-only
+#
+# Sonboy learning drivers
+#
+
+menu "Sonboy drivers"
+
+config HELLO_WORLD
+	tristate "Hello World"
+	help
+	  Hello World example driver.
+
+config LSC_AP3216C
+	tristate "AP3216C support"
+	help
+	  LSC AP3216C driver support.
+
+endmenu
